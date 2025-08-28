@@ -114,33 +114,73 @@
         
                         <!-- Products Table -->
                         <h6 class="mt-4">Products</h6>
-                        <table class="table table-bordered">
-                            <thead class="table-light">
-                                <tr>
-                                    <th>Product</th>
-                                    <th>Qty</th>
-                                    <th>Price</th>
-                                    <th>Terms</th>
-                                    <th>Artwork Ref</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>ALU ALU PLAIN BASE FOIL</td>
-                                    <td>100</td>
-                                    <td>₹250</td>
-                                    <td>Net 30</td>
-                                    <td>ART-001</td>
-                                </tr>
-                                <tr>
-                                    <td>PLAIN BASE FOIL</td>
-                                    <td>200</td>
-                                    <td>₹50</td>
-                                    <td>Net 30</td>
-                                    <td>ART-002</td>
-                                </tr>
-                            </tbody>
-                        </table>
+                        <div class="table-responsive">
+                            <table class="table table-bordered table-striped align-middle">
+                                <thead class="table-light">
+                                    <tr>
+                                        <th>Name</th>
+                                        <th>Code</th>
+                                        <th>Qty</th>
+                                        <th>Terms</th>
+                                        <th>Artwork Ref</th>
+                                        <th>Job Type</th>
+                                        <th>Job Id</th>
+                                        <th>Material</th>
+                                        <th>Size</th>
+                                        <th>Chargeable to Customer</th>
+                                        <th>Amount Per Cylinder</th>
+                                        <th>Number of Cylinders</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>ULTRA D3-4K TABS-SALE-BLR-R1</td>
+                                        <td>016116R1</td>
+                                        <td>100</td>
+                                        <td>Net 30</td>
+                                        <td>
+                                            <a href="#" class="text-primary fw-bold">
+                                                MY-241 ULTRA D3-4K TABS-SALE-BLR-R1
+                                            </a></td>
+                                        <td>New</td>
+                                        <td>
+                                            <a href="#" class="text-primary fw-bold">
+                                                JOB-001
+                                            </a>
+                                        </td>
+                                        <td>0.025mm X 188mm</td>
+                                        <td>188mm</td>
+                                        <td>No</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                    </tr>
+                                    <tr>
+                                        <td>ULTRA PLAIN TABS</td>
+                                        <td>017210R2</td>
+                                        <td>200</td>
+                                        <td>Net 30</td>
+                                        <td>
+                                            <a href="#" class="text-primary fw-bold">
+                                                MY-242 ULTRA PLAIN TABS
+                                            </a></td>
+                                        <td>Repeat</td>
+                                        <td>
+                                            <a href="#" class="text-primary fw-bold">
+                                                JOB-002
+                                            </a>
+                                        </td>
+                                        <td>0.03mm X 200mm</td>
+                                        <td>200mm</td>
+                                        <td>Yes</td>
+                                        <td>500</td>
+                                        <td>2</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+
+
         
                         <!-- Status -->
                         <div class="mb-3 mt-4">
