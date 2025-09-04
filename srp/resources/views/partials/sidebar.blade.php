@@ -27,7 +27,7 @@
         <div id="sidebar-menu" class="sidebar-menu">
             <ul>
                 <li class="menu-title d-flex justify-content-between align-items-center">
-                    <span>Customers</span>
+                    <span><a href="{{ route('customer.index') }}">Customers</a></span>
                     <!-- Add Customer Button -->
                     <a href="{{ route('customer.create') }}" class="btn btn-sm btn-primary ms-2" title="Add Customer">
                         <i class="ti ti-plus"></i>
@@ -35,7 +35,7 @@
                 </li>
 
                 <!-- Customer 1 -->
-                <li class="submenu">
+                {{-- <li class="submenu">
                     <a href="javascript:void(0);">
                         <i class="ti ti-users"></i>
                         <span>ABC Pvt Ltd</span>
@@ -45,15 +45,15 @@
                         <li><a href="{{ route('customer.products') }}">Products</a></li>
                         <li><a href="{{ route('customer.quotation') }}">Quotation / PFI</a></li>
                         <li><a href="{{ route('customer.sales-order') }}">Sales Orders</a></li>
-                        <li><a href="#">Job Management</a></li>
+                        <li><a href="{{ route('sales-order.job') }}">Job Management</a></li>
                         <li><a href="#">QC</a></li>
                         <li><a href="#">Packing Slip</a></li>
                         <li><a href="#">Dispatch</a></li>
                         <li><a href="#">Billing</a></li>
                     </ul>
-                </li>
+                </li> --}}
 
-                <!-- Customer 2 -->
+                {{-- <!-- Customer 2 -->
                 <li class="submenu">
                     <a href="javascript:void(0);">
                         <i class="ti ti-users"></i>
@@ -89,7 +89,7 @@
                         <li><a href="#">Dispatch</a></li>
                         <li><a href="#">Billing</a></li>
                     </ul>
-                </li>
+                </li> --}}
 
                 <!-- Vendor -->
                 <li class="submenu">

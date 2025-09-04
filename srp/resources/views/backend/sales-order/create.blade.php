@@ -53,8 +53,8 @@
                     <table class="table table-bordered">
                         <thead class="table-light">
                             <tr>
+                                <th>Shadecard Code</th>
                                 <th>Job Type</th>
-                                <th>Code</th>
                                 <th>Name</th>
                                 <th>Material</th>
                                 <th>Size</th>
@@ -67,8 +67,8 @@
                         </thead>
                         <tbody>
                             <tr>
-                                <td><input type="text" name="job_type_1" class="form-control"></td>
                                 <td><input type="text" name="code_1" class="form-control"></td>
+                                <td><input type="text" name="job_type_1" class="form-control"></td>
                                 <td><input type="text" name="name_1" class="form-control"></td>
                                 <td><input type="text" name="material_1" class="form-control"></td>
                                 <td><input type="text" name="size_1" class="form-control"></td>

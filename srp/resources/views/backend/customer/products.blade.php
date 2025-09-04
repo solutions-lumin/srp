@@ -1,7 +1,7 @@
-@extends('layouts.app')
+{{-- @extends('layouts.app')
 
-@section('content')
-<div class="container-fluid">
+@section('content') --}}
+{{-- <div class="container-fluid"> --}}
 
     <div class="row">
 
@@ -26,12 +26,14 @@
                             <table class="table table-bordered table-nowrap" id="productTable">
                                 <thead class="table-light">
                                     <tr>
+                                        <th>Shadecard Code</th>
                                         <th>Product Code</th>
                                         <th>Product Name</th>
-                                        <th>Type</th>
-                                        <th>Foil Price</th>
-                                        <th>Cylinder Terms</th>
-                                        <th>Payment Terms</th>
+                                        {{-- <th>Type</th> --}}
+                                        {{-- <th>Foil Price</th> --}}
+                                        {{-- <th>Cylinder Terms</th> --}}
+                                        {{-- <th>Payment Terms</th> --}}
+                                        <th>Attached Artwork(pdf)</th>
                                         <th>Artwork Details</th>
                                         <th>Cylinder Details</th>
                                         <th>Action</th>
@@ -39,30 +41,31 @@
                                 </thead>
                                 <tbody>
                                     <tr>
-                                        <td><input name="products[0][code]" class="form-control"></td>
-                                        <td><input name="products[0][name]" class="form-control"></td>
-                                        <td>
+                                        <td><input name="products[0][code]" class="form-control">ab-001</td>
+                                        <td><input name="products[0][code]" class="form-control">manually</td>
+                                        <td><input name="products[0][name]" class="form-control">manually</td>
+                                        {{-- <td>
                                             <select name="products[0][type]" class="form-control">
                                                 <option>In-house</option>
                                                 <option>Trading</option>
                                             </select>
-                                        </td>
+                                        </td> --}}
                                         <td>
-                                            <input type="number" name="products[0][price_printed]" placeholder="Plain" class="form-control mb-1">
-                                            <input type="number" name="products[0][price_plain]" placeholder="Printed" class="form-control">
+                                            {{-- <input type="number" name="products[0][price_printed]" placeholder="Plain" class="form-control mb-1">
+                                            <input type="number" name="products[0][price_plain]" placeholder="Printed" class="form-control"> --}}
                                         </td>
-                                        <td>
-                                            <select name="products[0][cylinder_terms]" class="form-control mb-1">
+                                        {{-- <td> --}}
+                                            {{-- <select name="products[0][cylinder_terms]" class="form-control mb-1">
                                                 <option>Paid</option>
                                                 <option>To-Pay</option>
                                             </select>
-                                            <input type="number" name="products[0][cylinder_rate]" placeholder="Rate" class="form-control">
-                                        </td>
-                                        <td>
-                                            <input name="products[0][payment_type]" placeholder="Type" class="form-control mb-1">
+                                            <input type="number" name="products[0][cylinder_rate]" placeholder="Rate" class="form-control"> --}}
+                                        {{-- </td> --}}
+                                        {{-- <td> --}}
+                                            {{-- <input name="products[0][payment_type]" placeholder="Type" class="form-control mb-1">
                                             <input type="number" name="products[0][payment_days]" placeholder="Days" class="form-control mb-1">
-                                            <input name="products[0][payment_method]" placeholder="Method" class="form-control">
-                                        </td>
+                                            <input name="products[0][payment_method]" placeholder="Method" class="form-control"> --}}
+                                        {{-- </td> --}}
 
                                         {{-- Artwork Modal Trigger --}}
                                         <td>
@@ -121,8 +124,8 @@
                                     <th>Price (Printed)</th>
                                     <th>Price (Plain)</th>
                                     <th>Cylinder Terms</th>
-                                    <th>Payment Terms</th>
-                                    <th>Artwork Details</th>
+                                    <th>Shadecard Details</th>
+                                    <th>Artwork</th>
                                     <th>Cylinder Details</th>
                                 </tr>
                             </thead>
@@ -177,7 +180,7 @@
 
     </div> <!-- end row -->
 
-</div>
+{{-- </div> --}}
 
 {{-- Artwork Modal --}}
 <div class="modal fade" id="artworkModal" tabindex="-1" aria-hidden="true">
@@ -368,4 +371,4 @@
     </div>
 </div>
 
-@endsection
+{{-- @endsection --}}

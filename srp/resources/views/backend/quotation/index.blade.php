@@ -1,7 +1,7 @@
-@extends('layouts.app')
+{{-- @extends('layouts.app')
 
-@section('content')
-<div class="container-fluid">
+@section('content') --}}
+{{-- <div class="container-fluid"> --}}
     <div class="row">
 
         <!-- Sidebar: List of Quotations / PFI -->
@@ -164,5 +164,5 @@
         </div>
 
     </div>
-</div>
-@endsection
+{{-- </div>
+@endsection --}}

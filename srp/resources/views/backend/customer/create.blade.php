@@ -80,6 +80,14 @@
                             <!-- Transport & Vendor -->
                             <div class="col-lg-6">
                                 <div class="mb-3">
+                                    <label class="form-label">Transporter</label>
+                                    <select name="transport_terms" class="form-control">
+                                        <option value="">Select</option>
+                                        <option value="Paid">abc</option>
+                                        <option value="To-Pay">pqr</option>
+                                    </select>
+                                </div>
+                                <div class="mb-3">
                                     <label class="form-label">Transport Terms</label>
                                     <select name="transport_terms" class="form-control">
                                         <option value="">Select</option>
@@ -87,6 +95,22 @@
                                         <option value="To-Pay">To-Pay</option>
                                         <option value="International">International</option>
                                     </select>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="mb-3">
+                                    <label class="form-label">Payment Terms</label>
+                                     <option value="">Select</option>
+                                        <option value="Paid">Paid</option>
+                                        <option value="To-Pay">To-Pay</option>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="mb-3">
+                                    <label class="form-label">Cylinder terms</label>
+                                     <option value="">Select</option>
+                                        <option value="Paid">Paid</option>
+                                        <option value="To-Pay">To-Pay</option>
                                 </div>
                             </div>
                             <div class="col-lg-6">

@@ -1,7 +1,7 @@
-@extends('layouts.app')
+{{-- @extends('layouts.app')
 
 @section('content')
-<div class="container-fluid">
+<div class="container-fluid"> --}}
     <div class="row">
 
         <!-- Sidebar: List of Sales Orders -->
@@ -206,5 +206,5 @@
 
    
     </div>
-</div>
-@endsection
+{{-- </div>
+@endsection --}}
