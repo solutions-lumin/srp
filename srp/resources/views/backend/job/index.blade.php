@@ -126,7 +126,8 @@
 
 <!-- Offcanvas Add Job Card (Static Form) -->
 <!-- Offcanvas Add Job Card -->
-<div class="offcanvas offcanvas-end offcanvas-large" tabindex="-1" id="offcanvas_add">
+<div class="offcanvas offcanvas-end offcanvas-large {{ request('offcanvas') === 'add' ? 'show' : '' }}" 
+     tabindex="-1" id="offcanvas_add">
     <div class="offcanvas-header border-bottom">
         <h5 class="mb-0">Add Job Card</h5>
         <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"></button>
